@@ -1,0 +1,6 @@
+weight= float(input('請輸入體重:'))
+height= float(input('請輸入身高:(公分)'))
+print (weight ,'kg',height ,'cm')
+heightkg=float(high/100)
+bmi= weight/(heightkg*heightkg)
+print ('BMI:',bmi)
